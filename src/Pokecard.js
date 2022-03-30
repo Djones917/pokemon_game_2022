@@ -5,3 +5,5 @@ class Pokecard extends Component {
         return <h1>POKECARD</h1>
     }
 }
+
+export default Pokecard;
