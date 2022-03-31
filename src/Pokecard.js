@@ -4,7 +4,7 @@ class Pokecard extends Component {
     render() {
         return (
             <div className="Pokecard">
-
+              <h1>{this.props.name}</h1>
             </div>
         )
     }
