@@ -14,7 +14,11 @@ class Pokedex extends Component{
           ]
     }
    render() {
-       
+       return (
+           <div className='Pokedex'>
+
+           </div>
+       )
    }
 }
 
