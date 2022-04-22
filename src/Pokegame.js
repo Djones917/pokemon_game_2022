@@ -9,3 +9,5 @@ class Pokegame extends Component {
         )
     }
 }
+
+export default Pokegame;
