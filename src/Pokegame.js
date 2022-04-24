@@ -4,7 +4,7 @@ class Pokegame extends Component {
     render() {
         return (
             <div>
-                <h1>Pokemon Game</h1>
+                <h1>Pokemon Game!</h1>
             </div>
         )
     }
