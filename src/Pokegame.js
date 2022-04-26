@@ -21,6 +21,8 @@ class Pokegame extends Component {
             let randPokemon = hand2.splice(randIdx, 1)[0]; 
             hand1.push(randPokemon);
         }
+        console.log(hand1);
+        console.log(hand2);
         return (
             <div>
                 <h1>Pokemon Game!</h1>
