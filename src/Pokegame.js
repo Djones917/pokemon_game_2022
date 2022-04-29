@@ -22,7 +22,7 @@ class Pokegame extends Component {
             let randPokemon = hand2.splice(randIdx, 1)[0]; 
             hand1.push(randPokemon);
         }   
-        let exp1 = hand1.reduce(exp, pokemon);     
+        let exp1 = hand1.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);     
         return (
             <div>
                 <Pokedex pokemon={hand1} />
